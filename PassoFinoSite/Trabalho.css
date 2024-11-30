@@ -109,9 +109,9 @@ form button:hover {
 
 .produto img {
     max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    height: 220px;
+    border-radius: 15px;
+    margin-bottom: 20px;
 }
 
 .produto h2 {
