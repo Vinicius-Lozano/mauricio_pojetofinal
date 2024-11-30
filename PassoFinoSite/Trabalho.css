@@ -25,14 +25,14 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    color: white;
+    color: rgb(32, 30, 30);
     padding: 10px 0;
     text-align: center;
     z-index: 1000;
 }
 
 .navbar a{
-    color: white;
+    color: rgb(5, 4, 4);
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -195,4 +195,16 @@ button:hover {
     #carrinho {
         padding: 15px;
     }
+}
+
+.login {
+    position: absolute; 
+    top: 50%; 
+    left: 10px;
+    transform: translateY(-50%); 
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
 }
