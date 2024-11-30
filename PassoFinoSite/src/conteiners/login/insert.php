@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include '/mauricio_projetofinal/PassoFinoSite/src/php/config.php';
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

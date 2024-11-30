@@ -1,6 +1,6 @@
 <?php
 
-include 'config.php';
+include '/mauricio_projetofinal/PassoFinoSite/src/php/config.php';
 
 
 $sql = "SELECT id, nome, email, telefone, endereco FROM clientes";

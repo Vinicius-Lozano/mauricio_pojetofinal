@@ -9,7 +9,7 @@
 <body>
     <?php include "../../navbar.php" ?>
     <h1>Cadastro de Cliente</h1>
-    <form action="/mauricio_pojetofinal/Mauricio_projetofinal/src/conteiners/login/insert.php" method="POST">
+    <form action="/mauricio_projetofinal/PassoFinoSite/src/conteiners/login/insert.php" method="POST">
         <label for="nome">Nome:</label>
         <input type="text" name="nome" id="nome" required><br><br>
 
