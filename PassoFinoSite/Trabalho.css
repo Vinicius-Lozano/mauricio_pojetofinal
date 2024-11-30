@@ -25,14 +25,14 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    color: white;
+    color: rgb(32, 30, 30);
     padding: 10px 0;
     text-align: center;
     z-index: 1000;
 }
 
 .navbar a{
-    color: white;
+    color: rgb(5, 4, 4);
     text-decoration: none;
     padding: 15px;
     display: block;
