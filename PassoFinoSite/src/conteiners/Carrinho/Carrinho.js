@@ -1,4 +1,4 @@
-let carrinho = [];
+let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
 
 function adicionarAoCarrinho(idProduto, nome, preco) {
     const itemExistente = carrinho.find(item => item.id === idProduto);
@@ -9,8 +9,9 @@ function adicionarAoCarrinho(idProduto, nome, preco) {
         carrinho.push({id: idProduto, nome: nome, preco: preco, quantidade: 1});
     }
 
+    salvarCarrinho();
     atualizarCarrinho();
-    alert('${nome} foi adicionado ao carrinho.');
+    alert('${nome} foi adicionado ao carrinho')
 }
 
 function atualizarCarrinho() {
@@ -40,7 +41,12 @@ function atualizarCarrinho() {
 
 function removerDoCarrinho(idProduto) {
     carrinho = carrinho.filter(item => item.id !== idProduto);
+    salvarCarrinho();
     atualizarCarrinho();
+}
+
+function salvarCarrinho() {
+    localStorage.setItem("carrinho", JSON.stringify(carrinho));
 }
 
 function finalizarCompra() {
@@ -52,7 +58,26 @@ function finalizarCompra() {
     const resumo = carrinho.map(item => `${item.nome} x${item.quantidade}`).join("\n");
     const total = carrinho.reduce((acc, item) => acc + item.preco * item.quantidade, 0);
 
-    alert(`Resumo da compra:\n${resumo}\n\nTotal: R$ ${total.toFixed(2)}`);
-    carrinho = []; 
-    atualizarCarrinho();
+    fetch("php/finalizar_compra.php", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ carrinho })
+    })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === "success") {
+                alert(`Compra finalizada com sucesso!\nResumo:\n${resumo}\n\nTotal: R$ ${total.toFixed(2)}`);
+                carrinho = [];
+                salvarCarrinho();
+                atualizarCarrinho();
+            } else {
+                alert("Houve um problema ao finalizar a compra. Tente novamente.");
+            }
+        })
+        .catch(error => {
+            console.error("Erro ao finalizar a compra:", error);
+            alert("Erro ao finalizar a compra. Verifique sua conexão e tente novamente.");
+        });
 }
