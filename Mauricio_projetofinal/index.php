@@ -7,15 +7,7 @@
     <link rel="stylesheet" href="./Trabalho.css">
 </head>
 <body>
-
-    <h1>caralho</h1>
-    <nav>
-        <ul class="navbar">
-            <li><a href="../../index.php">Home</a></li>
-            <li><a href="./login/Cadastrar_Cliente.html">login</a></li>
-            <li><a href="#carrinho">carrinho</a></li>
-        </ul>
-    </nav>
+    <?php include "./src/navbar.php"?>
 
     <h1>Bem vindo à  loja Passo fino</h1>
     <div class="produto">
