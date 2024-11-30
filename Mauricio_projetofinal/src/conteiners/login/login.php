@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +8,21 @@
 </head>
 <body>
     <?php include "../../navbar.php" ?>
-    <h1>Cadastro de Clientes</h1>
-    <form action="Cadastrar_cliente.php" method="post">
+    <h1>Cadastro de Cliente</h1>
+    <form action="/mauricio_pojetofinal/Mauricio_projetofinal/src/conteiners/login/insert.php" method="POST">
         <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
+        <input type="text" name="nome" id="nome" required><br><br>
 
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" required><br><br>
 
-        <label for="senha">Senha:</label>
-        <input type="password" name="senha" id="senha" required>
-
-        <label for="cep">CEP:</label>
-        <input type="text" id="cep" name="cep" maxlength="8" required onblur="buscarCEP()">
+        <label for="telefone">Telefone:</label>
+        <input type="text" name="telefone" id="telefone"><br><br>
 
         <label for="endereco">Endereço:</label>
-        <input type="text" id="endereco" name="endereco" readonly>
+        <textarea name="endereco" id="endereco"></textarea><br><br>
 
-        <button type="submit">Cadastrar</button>
+        <input type="submit" value="Cadastrar">
     </form>
-    <script src="buscarCep.js"></script>
-    <script src="ValidarFormulario.js"></script>
 </body>
 </html>
