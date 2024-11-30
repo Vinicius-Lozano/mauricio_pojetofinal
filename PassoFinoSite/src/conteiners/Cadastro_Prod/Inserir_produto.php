@@ -11,7 +11,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         die('Por favor, preencha os campos obrigatórios.');
     }
 
-   
     $sql = "INSERT INTO produtos (nome, descricao, preco) VALUES (?, ?, ?)";
     $stmt = $conn->prepare($sql);
 
