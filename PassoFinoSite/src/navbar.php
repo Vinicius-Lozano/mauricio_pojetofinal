@@ -13,6 +13,7 @@
         <li><a href="/mauricio_projetofinal/PassoFinoSite/index.php">Home</a></li>
         <li><a href="/mauricio_projetofinal/PassoFinoSite/src/conteiners/login/login.php">login</a></li>
         <li><a href="/mauricio_projetofinal/PassoFinoSite/src/conteiners/Carrinho/Carrinho.php">carrinho</a></li>
+        <li><a href="/mauricio_projetofinal/PassoFinoSite/src/conteiners/Cadastro_Prod/Cadastrar_produto.php">Cadastrar Produto</a></li>
       </ul>
     </nav>
   </section>
