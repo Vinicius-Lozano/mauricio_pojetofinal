@@ -10,9 +10,9 @@
   <section>
     <nav>
       <ul class="navbar">
-        <li><a href="/mauricio_pojetofinal/Mauricio_projetofinal/index.php">Home</a></li>
-        <li><a href="/mauricio_pojetofinal/Mauricio_projetofinal/src/conteiners/login/login.php">login</a></li>
-        <li><a href="/mauricio_pojetofinal/Mauricio_projetofinal/src/conteiners/Carrinho/Carrinho.php">carrinho</a></li>
+        <li><a href="/mauricio_projetofinal/PassoFinoSite/index.php">Home</a></li>
+        <li><a href="/mauricio_projetofinal/PassoFinoSite/src/conteiners/login/login.php">login</a></li>
+        <li><a href="/mauricio_projetofinal/PassoFinoSite/src/conteiners/Carrinho/Carrinho.php">carrinho</a></li>
       </ul>
     </nav>
   </section>

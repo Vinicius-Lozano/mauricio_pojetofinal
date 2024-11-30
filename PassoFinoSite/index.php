@@ -11,7 +11,7 @@
 
     <h1>Bem vindo à  loja Passo fino</h1>
     <div class="produto">
-        <img src="/mauricio_pojetofinal/Mauricio_projetofinal/src/img/Imagem Projeto 1.jpg" alt="Produto">
+        <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 1.jpg" alt="Produto">
         <h2>Nome do Produto</h2>
         <p>Descrição breve do produto</p>
         <p><strong>R$ 50,00</strong></p>
@@ -19,7 +19,7 @@
     </div>
 
     <div class="produto">
-        <img src="/mauricio_pojetofinal/Mauricio_projetofinal/src/img/Imagem Projeto 2.jpg" alt="Produto">
+        <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 2.jpg" alt="Produto">
         <h2>Nome do Produto</h2>
         <p>Descrição breve do produto</p>
         <p><strong>R$ 50,00</strong></p>
