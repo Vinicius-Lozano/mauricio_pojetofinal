@@ -23,7 +23,7 @@
         <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 2.jpg" alt="Produto">
         <h2>Nome do Produto</h2>
         <p>Descrição breve do produto</p>
-        <p><strong>R$ 50,00</strong></p>
+        <p><strong>R$ 400,00</strong></p>
         <button onclick="AdicionarAoCarrinho(2)">Adicionar ao Carrinho</button>
     </div>
 
@@ -31,7 +31,7 @@
         <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 3.jpg" alt="Produto">
         <h2>Nome do Produto</h2>
         <p>Descrição breve do produto</p>
-        <p><strong>R$ 50,00</strong></p>
+        <p><strong>R$ 350,00</strong></p>
         <button onclick="AdicionarAoCarrinho(3)">Adicionar ao Carrinho</button>
     </div>
 

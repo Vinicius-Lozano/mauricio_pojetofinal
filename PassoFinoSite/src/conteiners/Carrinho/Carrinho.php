@@ -19,12 +19,20 @@
     </header>
 
     <main>
-        <div class="carrinho">
+        <div id="carrinho-container">
             <?php include '../../php/exibir_carrinho.php'; ?>
         </div>
+
+        <div class="carrinho-resumo">
+            <h2>Total: <span id="total">R$0,00</span></h2>
+            <button class="btn-finalizar" onclick="finalizarCompra()">Finalizar Compra</button>
+        </div>
     </main>
-    <h2>Total: <span id="total">R$0,00</span></h2>
-    <button onclick="finalizarCompra()">Finalizar Compra</button>
+
+    <footer>
+        <p>&copy; 2024 Loja Passo Fino. Todos os direitos reservados</p>
+    </footer>
+
     <script src="./Carrinho.js"></script>
 </body>
 </html>
