@@ -8,11 +8,7 @@
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li><a href="/src/conteiners/Carrinho/Carrinho.html"></a></li>
-        </ul>
-    </nav>
+    <?php include './src/app.html'; ?>
 
     <h1>Bem vindo à  loja Passo fino</h1>
     <div class="produto">
