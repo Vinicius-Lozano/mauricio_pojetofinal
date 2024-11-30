@@ -1,19 +1,31 @@
-<?php
-include 'Conexao.php';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Produto</title>
+    <link rel="stylesheet" href="../../../Trabalho.css">
+</head>
+<body>
+    <?php include "../../navbar.php" ?>
+    <h1>Cadastrar Produto</h1>
+    <form action="/mauricio_projetofinal/PassoFinoSite/src/conteiners/Cadastro_Prod/inserir_produto.php" method="POST" enctype="multipart/form-data">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
 
-// Obter dados do formulário
-$nome = $_POST['nome'];
-$descricao = $_POST['descricao'];
-$preco = $_POST['preco'];
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" name="descricao" required></textarea><br><br>
 
-// Inserir no banco de dados
-$sql = "INSERT INTO produtos (nome, descricao, preco) VALUES ('$nome', '$descricao', '$preco')";
+        <label for="preco">Preço:</label>
+        <input type="number" step="0.01" id="preco" name="preco" required><br><br>
 
-if ($conn->query($sql) === TRUE) {
-    echo "Produto cadastrado com sucesso!";
-} else {
-    echo "Erro: " . $sql . "<br>" . $conn->error;
-}
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" name="quantidade" required><br><br>
 
-$conn->close();
-?>
+        <label for="imagem">Imagem:</label>
+        <input type="file" id="imagem" name="imagem"><br><br>
+
+        <button type="submit">Cadastrar Produto</button>
+    </form>
+</body>
+</html>
