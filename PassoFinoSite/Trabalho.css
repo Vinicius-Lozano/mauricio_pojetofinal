@@ -159,6 +159,85 @@ form button:hover {
     margin-bottom: 0;
 }
 
+#carrinho-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#carrinho-container .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#carrinho-container .item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+#carrinho-container img {
+    max-width: 80px;
+    border-radius: 5px;
+}
+
+#carrinho-container .item-info {
+    flex: 1;
+    margin-left: 15px;
+}
+
+#carrinho-container .item-info h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+}
+
+#carrinho-container .item-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+#carrinho-container .item-total {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.carrinho-resumo {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.carrinho-resumo h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.carrinho-resumo .btn-finalizar {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carrinho-resumo .btn-finalizar:hover {
+    background: #0056b3;
+}
+
 #total {
     font-weight: bold;
     color: #28a745;
@@ -208,3 +287,4 @@ button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
+
