@@ -12,9 +12,10 @@
     <h1>Bem vindo à  loja Passo fino</h1>
     <div class="produto">
         <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 1.jpg" alt="Produto">
-        <h2>Nome do Produto</h2>
-        <p>Descrição breve do produto</p>
-        <p><strong>R$ 50,00</strong></p>
+        <h2> Eterna</h2>
+        <p>Um modelo clássico, atemporal e feito para você.
+        </p>
+        <p><strong>R$ 230,00</strong></p>
         <button onclick="AdicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
     </div>
 
@@ -36,26 +37,19 @@
 
     <div class="produto">
         <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 4.jpg" alt="Produto">
-        <h2>Nome do Produto</h2>
-        <p>Descrição breve do produto</p>
-        <p><strong>R$ 50,00</strong></p>
-        <button onclick="AdicionarAoCarrinho(4)">Adicionar ao Carrinho</button>
+        <h2>Aura </h2>
+        <p>Um design leve e confortável para o dia a dia.
+        </p>
+        <p><strong>R$ 220,00</strong></p>
+        <button onclick="AdicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
     </div>
 
     <div class="produto">
         <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 5.jpg" alt="Produto">
-        <h2>Nome do Produto</h2>
-        <p>Descrição breve do produto</p>
-        <p><strong>R$ 50,00</strong></p>
-        <button onclick="AdicionarAoCarrinho(5)">Adicionar ao Carrinho</button>
-    </div>
-
-    <div class="produto">
-            <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 6.jpg" alt="Produto">
-            <h2>Nome do Produto</h2>
-            <p>Descrição breve do produto</p>
-            <p><strong>R$ 50,00</strong></p>
-            <button onclick="AdicionarAoCarrinho(6)">Adicionar ao Carrinho</button>
+        <h2>Ímpeto </h2>
+        <p>Para quem busca estilo moderno e ousado.</p>
+        <p><strong>R$ 250,00</strong></p>
+        <button onclick="AdicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
     </div>
 
     <?php include './Listar_produtos.php' ?>

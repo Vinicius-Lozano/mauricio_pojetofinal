@@ -3,7 +3,7 @@ h1 {
 }
 .navbar {
     list-style-type: none;
-    background-color: green;
+    background-color: #FFDEAD;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -16,7 +16,7 @@ h1 {
     display: block;
 }
 .navbar a:hover{
-    background-color: rgb(0, 68, 0);
+    background-color: #FFDEAD;
 }
 
 .navbar li {
