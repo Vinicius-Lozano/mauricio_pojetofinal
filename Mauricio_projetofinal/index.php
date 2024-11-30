@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./Trabalho.css">
 </head>
 <body>
+
+    <?php include './src/app.html'; ?>
+
     <h1>Bem vindo à  loja Passo fino</h1>
     <div class="produto">
         <img src="c:\Users\kuram\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\C9B6D756D47A94C56822EE7B63338679\Imagem do WhatsApp de 2024-11-30 à(s) 13.35.41_004e8067.jpg" alt="Produto">
