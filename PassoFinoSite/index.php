@@ -21,19 +21,18 @@
 
     <div class="produto">
         <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 2.jpg" alt="Produto">
-        <h2>Bravura </h2>
-        <p>Um sapato robusto e com personalidade marcante.</p>
-        <p><strong>R$ 180,00</strong></p>
-        <button onclick="AdicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
+        <h2>Nome do Produto</h2>
+        <p>Descrição breve do produto</p>
+        <p><strong>R$ 50,00</strong></p>
+        <button onclick="AdicionarAoCarrinho(2)">Adicionar ao Carrinho</button>
     </div>
 
     <div class="produto">
         <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 3.jpg" alt="Produto">
-        <h2>Elegance </h2>
-        <p> Focado em sofisticação para ocasiões formais.
-        </p>
-        <p><strong>R$ 450,00</strong></p>
-        <button onclick="AdicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
+        <h2>Nome do Produto</h2>
+        <p>Descrição breve do produto</p>
+        <p><strong>R$ 50,00</strong></p>
+        <button onclick="AdicionarAoCarrinho(3)">Adicionar ao Carrinho</button>
     </div>
 
     <div class="produto">
