@@ -23,7 +23,7 @@
         <h2>Nome do Produto</h2>
         <p>Descrição breve do produto</p>
         <p><strong>R$ 50,00</strong></p>
-        <button onclick="AdicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
+        <button onclick="AdicionarAoCarrinho(2)">Adicionar ao Carrinho</button>
     </div>
 
     <div class="produto">
@@ -31,7 +31,7 @@
         <h2>Nome do Produto</h2>
         <p>Descrição breve do produto</p>
         <p><strong>R$ 50,00</strong></p>
-        <button onclick="AdicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
+        <button onclick="AdicionarAoCarrinho(3)">Adicionar ao Carrinho</button>
     </div>
 
     <div class="produto">
@@ -39,7 +39,7 @@
         <h2>Nome do Produto</h2>
         <p>Descrição breve do produto</p>
         <p><strong>R$ 50,00</strong></p>
-        <button onclick="AdicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
+        <button onclick="AdicionarAoCarrinho(4)">Adicionar ao Carrinho</button>
     </div>
 
     <div class="produto">
@@ -47,7 +47,7 @@
         <h2>Nome do Produto</h2>
         <p>Descrição breve do produto</p>
         <p><strong>R$ 50,00</strong></p>
-        <button onclick="AdicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
+        <button onclick="AdicionarAoCarrinho(5)">Adicionar ao Carrinho</button>
     </div>
 
     <div class="produto">
@@ -55,7 +55,7 @@
             <h2>Nome do Produto</h2>
             <p>Descrição breve do produto</p>
             <p><strong>R$ 50,00</strong></p>
-            <button onclick="AdicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
+            <button onclick="AdicionarAoCarrinho(6)">Adicionar ao Carrinho</button>
     </div>
 
     <?php include './Listar_produtos.php' ?>
