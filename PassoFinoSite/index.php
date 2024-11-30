@@ -9,50 +9,48 @@
 <body>
     <?php include "./src/navbar.php"?>
 
-    <h1>Bem vindo à  loja Passo fino</h1>
+    <h1>Bem-vindo à loja Passo Fino</h1>
+
     <div class="produto">
         <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 1.jpg" alt="Produto">
-        <h2> Eterna</h2>
-        <p>Um modelo clássico, atemporal e feito para você.
-        </p>
+        <h2>Eterna</h2>
+        <p>Um modelo clássico, atemporal e feito para você.</p>
         <p><strong>R$ 230,00</strong></p>
-        <button onclick="AdicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
+        <button onclick="adicionarAoCarrinho(1, 'Eterna', 230.00, 'imagem_produto1.jpg')">Adicionar ao Carrinho</button>
     </div>
 
     <div class="produto">
         <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 2.jpg" alt="Produto">
         <h2>Nome do Produto</h2>
         <p>Descrição breve do produto</p>
-        <p><strong>R$ 400,00</strong></p>
-        <button onclick="AdicionarAoCarrinho(2)">Adicionar ao Carrinho</button>
+        <p><strong>R$ 50,00</strong></p>
+        <button onclick="adicionarAoCarrinho(2, 'Nome do Produto', 50.00, 'imagem_produto2.jpg')">Adicionar ao Carrinho</button>
     </div>
 
     <div class="produto">
         <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 3.jpg" alt="Produto">
         <h2>Nome do Produto</h2>
         <p>Descrição breve do produto</p>
-        <p><strong>R$ 350,00</strong></p>
-        <button onclick="AdicionarAoCarrinho(3)">Adicionar ao Carrinho</button>
+        <p><strong>R$ 50,00</strong></p>
+        <button onclick="adicionarAoCarrinho(3, 'Nome do Produto', 50.00, 'imagem_produto3.jpg')">Adicionar ao Carrinho</button>
     </div>
 
     <div class="produto">
         <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 4.jpg" alt="Produto">
-        <h2>Aura </h2>
-        <p>Um design leve e confortável para o dia a dia.
-        </p>
+        <h2>Aura</h2>
+        <p>Um design leve e confortável para o dia a dia.</p>
         <p><strong>R$ 220,00</strong></p>
-        <button onclick="AdicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
+        <button onclick="adicionarAoCarrinho(4, 'Aura', 220.00, 'imagem_produto4.jpg')">Adicionar ao Carrinho</button>
     </div>
 
     <div class="produto">
         <img src="/mauricio_projetofinal/PassoFinoSite/src/img/Imagem Projeto 5.jpg" alt="Produto">
-        <h2>Ímpeto </h2>
+        <h2>Ímpeto</h2>
         <p>Para quem busca estilo moderno e ousado.</p>
         <p><strong>R$ 250,00</strong></p>
-        <button onclick="AdicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
+        <button onclick="adicionarAoCarrinho(5, 'Ímpeto', 250.00, 'imagem_produto5.jpg')">Adicionar ao Carrinho</button>
     </div>
 
-    <?php include './Listar_produtos.php' ?>
     <script src="./src/conteiners/Carrinho/Carrinho.js"></script>
 </body>
 </html>
