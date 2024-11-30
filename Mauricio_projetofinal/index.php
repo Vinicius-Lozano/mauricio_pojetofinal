@@ -11,7 +11,7 @@
 
     <h1>Bem vindo à  loja Passo fino</h1>
     <div class="produto">
-        <img src="./src/img/Imagem Projeto 1.jpg" alt="Produto">
+        <img src="/mauricio_pojetofinal/Mauricio_projetofinal/src/img/Imagem Projeto 1.jpg" alt="Produto">
         <h2>Nome do Produto</h2>
         <p>Descrição breve do produto</p>
         <p><strong>R$ 50,00</strong></p>
@@ -19,7 +19,7 @@
     </div>
 
     <div class="produto">
-        <img src="c:\Users\kuram\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\D0D926E845B8E6665D91E4F3EB27BE32\Imagem do WhatsApp de 2024-11-30 à(s) 13.35.41_d9db8629.jpg" alt="Produto">
+        <img src="/mauricio_pojetofinal/Mauricio_projetofinal/src/img/Imagem Projeto 2.jpg" alt="Produto">
         <h2>Nome do Produto</h2>
         <p>Descrição breve do produto</p>
         <p><strong>R$ 50,00</strong></p>
